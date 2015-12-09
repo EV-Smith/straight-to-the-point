@@ -75,7 +75,7 @@ body {
 }
 
 header img {
-  width: 16%;
+  width: 14rem;
   z-index: 100;
   position: absolute;
   margin: .5rem 1.5rem;
@@ -130,14 +130,9 @@ aside i {
   padding: 0 0 1rem 0;
 }
 
-.quote-1 {
-  padding: 4rem 0 0 1rem;
+.quote {
+  padding: 4.5rem 0 0 1rem;
 }
-
-.quote-2 {
-  padding: 10rem 0 0 1rem;
-}
-
 
 p {
   font-size: 1rem;
@@ -165,26 +160,27 @@ h1 {
 }
 
 h1.welcome {
+  clear: both;
   padding-top: 8rem;
   font-weight: 300;
   font-size: 1.5rem;
 }
 
-section.instructor-bios {
-  width: 60%;
-  padding: 1rem 0 1rem 0;
+h1.navigate {
+  padding-top: 8rem;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
-section.instructor-bios p {
-  padding: 3rem 0 1.5rem 0;
+.instructor-bios {
+  width: 60%;
+  padding: 3rem 0 1rem 0;
 }
 
 .circle { 
-  float: left;
-  clear: both;
   border-radius: 100%;
   border: 3px solid #523e33;
-  width: 25%;
+  width: 90%;
   margin: 1.5rem 2rem 1.5rem 0;
 }
 
@@ -223,4 +219,55 @@ article.jump-to a {
 
 article.jump-to a:hover {
   color: #619211; 
+}
+
+.tab {
+  padding-left: 2rem;
+  list-style: disc;
+}
+
+
+/* footer */
+footer{
+    color: #8f8f8f;
+}
+.footerh1{
+    color:#523e33;
+    margin-bottom: 1.5em;
+}
+
+.openhours li{
+    height: 2em;
+
+}
+
+.socialtags{
+    margin-right: 3em;
+}
+
+.socialtags li{
+    float: right;
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+
+article p{
+    padding: 1em 2em;
+    margin-top: 1em;
+}
+
+article p:first-letter{
+    color: #c81211;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.ndp{
+    margin-left: 2em ;
+}
+
+.nondp{
+    font-size: 0.8em;
+    color:gray;
+    padding: 2em 4em;
 }
